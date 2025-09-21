@@ -18,13 +18,35 @@
   <body>
     <!-- nav styles -->
     <header class="bg-[#15803D] text-white flex justify-around items-center">
-      <h4 class="">Green Earth</h4>
-      <div class="flex gap-3 justify-between">
+      <h4 class="text-xl md:text-2xl font-bold">Green Earth</h4>
+      <div class="sm:visible flex gap-3 justify-between">
         <h6>About</h6>
         <h6>Gallery</h6>
         <h6>Plant a Tree</h6>
       </div>
-      <button class="btn btn-primary text-[#15803D] rounded-4xl border-none m-3 bg-[#FACC15]">Plant a Tree</button>
+      <button
+        class="btn btn-primary text-[#15803D] rounded-4xl border-none m-3 bg-[#FACC15]"
+      >
+        Plant a Tree
+      </button>
     </header>
+
+    <!-- banner styles -->
+    <section class="bg-[#CFF0DC] flex justify-around w-full">
+      <img class="w-1/6 md:w-3/12 rotate-10" src="./assets/hero-leaf1.png" alt="" />
+      <div class="items-center text-center py-10 px-5">
+        <h1 class="text-xl md:text-4xl font-bold">Plant a Tree, Grow a Future</h1>
+        <p class="text-xs md:text-lg">
+          Join our mission to plant 1 million trees and make the Earth greener
+          for future generations.
+        </p>
+        <button
+          class="btn btn-primary text-[#15803D] rounded-4xl border-none m-3 bg-[#FACC15]"
+        >
+          Get Involved
+        </button>
+      </div>
+      <img class="w-1/6 md:w-3/12 rotate-[-10deg]" src="./assets/hero-leaf2.png" alt="" />
+    </section>
   </body>
 </html>
