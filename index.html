@@ -15,11 +15,12 @@
     <!-- tailwind css -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
-  <body>
+  <body class="">
     <!-- nav styles -->
-    <header class="bg-[#15803D] text-white flex justify-around items-center">
+
+         <header class="bg-[#15803D] text-white flex justify-around items-center">
       <h4 class="text-xl md:text-2xl font-bold">Green Earth</h4>
-      <div class="flex gap-3 justify-between items-center hidden md:block">
+      <div class=" gap-3 justify-between items-center hidden md:flex">
         <h6>About</h6>
         <h6>Gallery</h6>
         <h6>Plant a Tree</h6>
@@ -32,7 +33,7 @@
     </header>
 
     <!-- banner styles -->
-    <section class="bg-[#CFF0DC] flex justify-around w-full">
+    <section class="bg-[#CFF0DC] flex justify-around w-full overflow-hidden">
       <img
         class="w-1/6 md:w-3/12 rotate-10"
         src="./assets/hero-leaf1.png"
@@ -58,5 +59,22 @@
         alt=""
       />
     </section>
+
+
+    <!-- body styles -->
+     <section class="flex justify-between gap-3">
+      <div class="categories h-64 border border-red-300 w-2/10">
+
+      </div>
+
+      <div class="product-card h-64 w-6/10 border border-green-300">
+
+      </div>
+
+      <div class="cart w-2/10 border border-blue-500">
+
+      </div>
+     </section>
+
   </body>
 </html>
